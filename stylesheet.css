@@ -1,0 +1,139 @@
+body, html {
+	width:100%;
+    height: 100%;
+    margin: 0;
+	padding: 0;
+   	font-family: Arial;
+}
+
+/*For the navigation on the page*/
+.navbar {
+  	overflow: hidden;
+  	background-color: #ebebeb;
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+	display: block;
+}
+
+.navbar a {
+  	float: right;
+  	display: inline-block;
+  	color: #f18526;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+.navbar a:hover{
+   color: #d27728;
+}
+
+/*Orange-Knapp: style="font-family: Arial; font-size: 1em; text-decoration: none; color: white; background: #f5821f; padding: 20px; border-radius: 5px;*/
+
+.navbar input{
+    float: right;
+    text-align: center;
+    padding: 4px 6px;
+    font-size: 1em;
+	display: inline-block;
+   	background-color: white;
+   	color: #f5821f;
+   	border: 1px solid #f5821f;
+   	border-radius: 10px;
+   	margin-top: 1%;
+   	margin-left: 1%;
+}
+
+.navbar input:nth-child(1){
+      margin-right: 1%;
+}
+
+.navbar input:hover {
+   box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2); 
+   background-color: #fafafa;
+}
+.navbar input:focus {
+   background-color: #eee;
+}
+
+/*Lägga in style för login & singup window. */
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+}
+
+/*Title, and undertitle on the page*/
+
+h1 {
+    text-align: center;
+    color: darkorange;
+    font-family: serif;
+    font-size: 60px;
+}
+
+h2 {
+    color: #ebebeb;
+    text-align: center;
+    font-family: serif;
+    font-size: 45px;
+    width: 50%;
+    margin:auto;
+    margin-bottom:4%;
+}
+
+/*Sökfältet*/
+
+.formone input[type=text] {
+    width: 48%;
+    box-sizing: border-box;
+    border: 1px solid #f5821f;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-left: 25%;
+}
+.formone input[type=text]:hover{
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+}
+.formone input[type=text]:focus {
+    background-color: #fafafa;
+}
+hr {
+	width: 90%;
+}
+ /* Style the buttons that are used to open and close the accordion panel */
+.contone{
+	width: 100%;
+}
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    transition: 0.4s;
+	margin-top: 2%;
+	display: inline-block;
+    margin-left: 1%;
+    width:32%;
+	position:relative;
+}
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+	max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+	max-width: 32%;
+}

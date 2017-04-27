@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+
+        <title>24Money - We're not a Bank</title>
+        
+<!-- Koppla på alla olika javascrpit filer, som kommer spela sina roller, men formulären. -->
+        
+    </head>
+
+    <body>
+        <div class="navbar">
+            <input type="button" value="Sign up" href="#signup"/>
+            <input type="button" value="Login" href="#login" />
+            <a href="#home">Menu3</a>
+            <a href="#news">Menu2</a>
+            <a href="#contact">Menu1</a>
+        </div>
+		<header>
+        <div class="main">
+            <h1>Agent system online</h1>
+        </div>
+        
+            <h2>Transfer money easy, quikly, and fast.</h2>
+        
+        
+<!-- Kommer lägga in formulär, olika lekfulla sätt att göra det på. Samt att jag kommer kolla på hur konkurrenter har sina folmulär.-->
+        
+<!-- Formulär/sök fält 1 - lägga på klasser & idn vart eftersom --> 
+        
+                <form class="formone">
+                    <input type="text" name="search" placeholder="Search Country..">
+                </form>
+	</header>
+    <hr>
+<!-- Formulär 2 - lägga på classer & idn vart eftersom. -->
+        
+       <!-- <div class="row">
+            <form class="formtwo">
+                <input />
+                <input />
+                <input />
+                <input />
+            </form>
+            <fieldset>
+                <input />
+                <input />
+                <input />
+                <input />
+            </fieldset>
+        </div>-->
+		<section>
+	   	<div class="contone">
+			<button class="accordion">Section 1</button>
+				<div class="panel">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+			<button class="accordion">Section 2</button>
+				<div class="panel">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+			<button class="accordion">Section 3</button>
+				<div class="panel">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+	  	</div> 
+		</section>
+		
+		<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+				acc[i].onclick = function() {
+					this.classList.toggle("active");
+    				var panel = this.nextElementSibling;
+					if (panel.style.maxHeight){
+						panel.style.maxHeight = null;
+    				} else {
+      					panel.style.maxHeight = panel.scrollHeight + "px";
+    				} 
+  				}
+			}
+		</script>
+	</body>
+    
+</html>
